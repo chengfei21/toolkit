@@ -19,7 +19,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/README.en-US.md",
-          "updatedTime": 1606204675711,
+          "updatedTime": 1606205676000,
           "title": "xy-lodash - React utils Library of Xylink",
           "hero": {
             "title": "a react util library",
@@ -81,7 +81,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/README.zh-CN.md",
-          "updatedTime": 1606204681025,
+          "updatedTime": 1606205676000,
           "title": "xy-lodash - React utils Library of Xylink",
           "hero": {
             "title": "a react util library",
@@ -143,7 +143,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/pages/getting-started.en-US.md",
-          "updatedTime": 1606204611262,
+          "updatedTime": 1606205676000,
           "order": 1,
           "nav": {
             "title": "Guide",
@@ -193,7 +193,7 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "docs/pages/getting-started.zh-CN.md",
-          "updatedTime": 1606204597774,
+          "updatedTime": 1606205676000,
           "order": 1,
           "nav": {
             "title": "指南",
