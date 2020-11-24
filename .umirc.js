@@ -1,5 +1,6 @@
 export default {
   exportStatic: {},
+  outputPath: "/host",
   nodeModulesTransform: {
     type: "none",
     exclude: [],
