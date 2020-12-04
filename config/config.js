@@ -20,7 +20,7 @@ export default {
   base: "/toolkit",
   publicPath: "/toolkit/",
   favicon: "https://cdn.xylink.com/wechatMP/images/login.ico",
-  logo: "/logo.png",
+  logo: "/toolkit/logo.png",
   dynamicImport: {},
   manifest: {},
   // links: [{ rel: "manifest", href: "/asset-manifest.json" }],
