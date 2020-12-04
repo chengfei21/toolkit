@@ -1,5 +1,5 @@
 ---
-title: xy-lodash - React utils Library of Xylink
+title: Toolkit by xylink
 hero:
   title: A general tool library
   desc: Easy to use, Easy to write
