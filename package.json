@@ -9,8 +9,7 @@
     "dev": "rollup -c -w",
     "pretest": "npm run build",
     "test": "jest",
-    "build:doc": "dumi build",
-    "pub:doc": "surge ./dist --domain ahooks.js.org"
+    "build:doc": "dumi build"
   },
   "files": [
     "dist"
