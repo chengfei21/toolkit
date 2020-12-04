@@ -1,28 +1,33 @@
 # toolkit
 
-xy toolkit lib
+小鱼易连通用工具函数库
+
+## guide
+
+[文档](https://xylink-com.github.io/toolkit/)
 
 ## List
 
 - [x] broswer
-- [x] time
-- [x] axios
-- [x] httpclient
-- [x] 节流/防抖
-- [x] store
-- [x] websocket
-- [x] logger
-- [x] timeout/interval/requestanimation
-- [x] emmit
-- [x] db
-- [x] getTime(format);
-- [x] tranlateMoney(fixed);
-- [x] url parms
-- [x] mergeDeep
-- [x] cloneDeep
-- [x] array/object/mat
-- [x] native(native-js)(android,ios)
 - [x] fullscreen(event)
+- [x] store
+- [ ] time
+- [ ] axios
+- [ ] httpclient
+- [ ] 节流/防抖
+- [ ] store
+- [ ] websocket
+- [ ] logger
+- [ ] timeout/interval/requestanimation
+- [ ] emmit
+- [ ] db
+- [ ] getTime(format);
+- [ ] tranlateMoney(fixed);
+- [ ] url parms
+- [ ] mergeDeep
+- [ ] cloneDeep
+- [ ] array/object/mat
+- [ ] native(native-js)(android,ios)
 
 ## License
 

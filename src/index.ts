@@ -5,4 +5,14 @@ import {
   getSafariVersion,
 } from "./browser";
 
-export { getChromeVersion, getEdgeVersion, getPlatform, getSafariVersion };
+import fscreen from "./screen";
+import store from "./store";
+
+export {
+  getChromeVersion,
+  getEdgeVersion,
+  getPlatform,
+  getSafariVersion,
+  fscreen,
+  store,
+};

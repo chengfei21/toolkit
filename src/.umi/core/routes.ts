@@ -9,7 +9,7 @@ export function getRoutes() {
   {
     "path": "/",
     "component": (props) => require('react').createElement(require('../../../node_modules/@umijs/preset-dumi/lib/themes/default/layout.js').default, {
-      ...{"menus":{"en-US":{"*":[{"path":"/","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/pages":[{"path":"/pages/getting-started","title":"Getting Started","meta":{"order":1}}]},"zh-CN":{"*":[{"path":"/zh-CN","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/zh-CN/pages":[{"path":"/zh-CN/pages/getting-started","title":"快速上手","meta":{"order":1}}]}},"locales":[{"name":"en-US","label":"English"},{"name":"zh-CN","label":"中文"}],"navs":{"en-US":[{"title":"Guide","order":1,"path":"/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}],"zh-CN":[{"title":"指南","order":1,"path":"/zh-CN/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}]},"title":"toolkit","logo":"/logo.png","mode":"site"},
+      ...{"menus":{"en-US":{"*":[{"path":"/","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/pages":[{"path":"/pages/document","title":"Getting Started","meta":{"order":1}},{"path":"/pages/fscreen","title":"FullScreen","meta":{}},{"path":"/pages/store","title":"Store","meta":{}}]},"zh-CN":{"*":[{"path":"/zh-CN","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/zh-CN/pages":[{"path":"/zh-CN/pages/document","title":"快速上手","meta":{"order":1}},{"path":"/zh-CN/pages/fscreen","title":"FullScreen","meta":{}},{"path":"/zh-CN/pages/store","title":"Store","meta":{}}]}},"locales":[{"name":"en-US","label":"English"},{"name":"zh-CN","label":"中文"}],"navs":{"en-US":[{"title":"Document","order":1,"path":"/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}],"zh-CN":[{"title":"文档","order":1,"path":"/zh-CN/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}]},"title":"Toolkit","logo":"/toolkit/logo.png","mode":"site"},
       ...props,
     }),
     "routes": [
@@ -19,56 +19,51 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "guide/README.en-US.md",
-          "updatedTime": 1607064561136,
+          "updatedTime": 1607066553000,
           "title": "xy-lodash - React utils Library of Xylink",
           "hero": {
-            "title": "a react util library",
-            "desc": "<div class=\"markdown\"><p>Easy to use,</p></div>",
+            "title": "A general tool library",
+            "desc": "<div class=\"markdown\"><p>Easy to use, Easy to write</p></div>",
             "actions": [
               {
                 "text": "Getting Started",
-                "link": "/pages/getting-started"
+                "link": "/zh-CN/pages/document"
               }
             ]
           },
           "features": [
             {
               "icon": "https://gw.alipayobjects.com/zos/bmw-prod/813f5ed9-6bc4-43d4-9f74-ec81ecf35733/k7htg6n4_w144_h144.png",
-              "title": "Rich Collection",
-              "desc": "<div class=\"markdown\"><p>ahooks contains a large set of essential react hooks, with demos and examples for each one of them.</p></div>"
+              "title": "Trusty",
+              "desc": "<div class=\"markdown\"><p>All tool functions are extracted from the XYlink SDK and client project. After the project has been tempered, you can rest assured to eat</p></div>"
             },
             {
               "icon": "https://gw.alipayobjects.com/zos/bmw-prod/7659205c-6637-4fa2-8529-d32e5818304b/k7htflfb_w144_h144.png",
-              "title": "Detailed Tutorial",
-              "desc": "<div class=\"markdown\"><p>Providing tutorials about using hooks in practice. An all-in-one place to learn for pro coders and newcomers.</p></div>"
+              "title": "Spirituality",
+              "desc": "<div class=\"markdown\"><p>All APIs pursue simplicity, and complex functions can be implemented with very little code.</p></div>"
             },
             {
               "icon": "https://gw.alipayobjects.com/zos/bmw-prod/6319a122-e8b8-497f-9b45-37cfbe77edaa/k7htfx7t_w144_h144.png",
-              "title": "Ready for Production",
-              "desc": "<div class=\"markdown\"><p>Used in hundreds of products in Alipay、Taobao、Tmall etc, with high quality and robustness.</p></div>"
+              "title": "Open source",
+              "desc": "<div class=\"markdown\"><p>All tool functions are all open source, if you have a better IDEA, welcome to PR and make your own contribution to world peace</p></div>"
             }
           ],
           "footer": "<div class=\"markdown\"><p>Open-source MIT Licensed | Copyright © 2020-xylink</p></div>",
           "slugs": [
             {
-              "depth": 1,
-              "value": "xy-lodash",
-              "heading": "xy-lodash"
+              "depth": 2,
+              "value": "Toolkit",
+              "heading": "toolkit"
             },
             {
               "depth": 2,
-              "value": "Dev",
-              "heading": "dev"
+              "value": "Feature List",
+              "heading": "feature-list"
             },
             {
               "depth": 2,
               "value": "License",
               "heading": "license"
-            },
-            {
-              "depth": 2,
-              "value": "list",
-              "heading": "list"
             }
           ],
           "locale": "en-US"
@@ -81,56 +76,51 @@ export function getRoutes() {
         "exact": true,
         "meta": {
           "filePath": "guide/README.zh-CN.md",
-          "updatedTime": 1607064561137,
+          "updatedTime": 1607066553000,
           "title": "xy-lodash - React utils Library of Xylink",
           "hero": {
-            "title": "a react util library",
-            "desc": "<div class=\"markdown\"><p>Easy to use,</p></div>",
+            "title": "通用工具函数库",
+            "desc": "<div class=\"markdown\"><p>为项目而生，拒绝做代码搬运工</p></div>",
             "actions": [
               {
-                "text": "Getting Started",
-                "link": "/pages/getting-started"
+                "text": "快速开始",
+                "link": "/zh-CN/pages/document"
               }
             ]
           },
           "features": [
             {
               "icon": "https://gw.alipayobjects.com/zos/bmw-prod/813f5ed9-6bc4-43d4-9f74-ec81ecf35733/k7htg6n4_w144_h144.png",
-              "title": "Rich Collection",
-              "desc": "<div class=\"markdown\"><p>ahooks contains a large set of essential react hooks, with demos and examples for each one of them.</p></div>"
+              "title": "可靠",
+              "desc": "<div class=\"markdown\"><p>所有工具函数都是XYlink SDK、客户端项目上抽离出来的，经过项目千锤百炼，可放心食用</p></div>"
             },
             {
               "icon": "https://gw.alipayobjects.com/zos/bmw-prod/7659205c-6637-4fa2-8529-d32e5818304b/k7htflfb_w144_h144.png",
-              "title": "Detailed Tutorial",
-              "desc": "<div class=\"markdown\"><p>Providing tutorials about using hooks in practice. An all-in-one place to learn for pro coders and newcomers.</p></div>"
+              "title": "简洁",
+              "desc": "<div class=\"markdown\"><p>所有Api追求简洁，极少的代码就可以实现复杂的功能。</p></div>"
             },
             {
               "icon": "https://gw.alipayobjects.com/zos/bmw-prod/6319a122-e8b8-497f-9b45-37cfbe77edaa/k7htfx7t_w144_h144.png",
-              "title": "Ready for Production",
-              "desc": "<div class=\"markdown\"><p>Used in hundreds of products in Alipay、Taobao、Tmall etc, with high quality and robustness.</p></div>"
+              "title": "开源",
+              "desc": "<div class=\"markdown\"><p>所有工具函数全部开源，如果你有更好的IDEA，欢迎PR，为世界和平做出自己的一份贡献</p></div>"
             }
           ],
           "footer": "<div class=\"markdown\"><p>Open-source MIT Licensed | Copyright © 2020-xylink</p></div>",
           "slugs": [
             {
-              "depth": 1,
-              "value": "xy-lodash",
-              "heading": "xy-lodash"
+              "depth": 2,
+              "value": "Toolkit",
+              "heading": "toolkit"
             },
             {
               "depth": 2,
-              "value": "Dev",
-              "heading": "dev"
+              "value": "Feature List",
+              "heading": "feature-list"
             },
             {
               "depth": 2,
               "value": "License",
               "heading": "license"
-            },
-            {
-              "depth": 2,
-              "value": "list",
-              "heading": "list"
             }
           ],
           "locale": "zh-CN"
@@ -138,15 +128,15 @@ export function getRoutes() {
         "title": "xy-lodash - React utils Library of Xylink"
       },
       {
-        "path": "/pages/getting-started",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__getting-started.en-US.md' */'../../../guide/pages/getting-started.en-US.md')}),
+        "path": "/pages/document",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__document.en-US.md' */'../../../guide/pages/document.en-US.md')}),
         "exact": true,
         "meta": {
-          "filePath": "guide/pages/getting-started.en-US.md",
-          "updatedTime": 1607064561139,
+          "filePath": "guide/pages/document.en-US.md",
+          "updatedTime": 1607072501064,
           "order": 1,
           "nav": {
-            "title": "Guide",
+            "title": "Document",
             "order": 1,
             "path": "/pages"
           },
@@ -158,28 +148,23 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "First Example",
-              "heading": "first-example"
-            },
-            {
-              "depth": 3,
-              "value": "1. Create one codesandbox",
-              "heading": "1-create-one-codesandbox"
-            },
-            {
-              "depth": 3,
-              "value": "2. Using ahooks",
-              "heading": "2-using-ahooks"
-            },
-            {
-              "depth": 3,
-              "value": "3. Explore more Hooks",
-              "heading": "3-explore-more-hooks"
+              "value": "Install",
+              "heading": "install"
             },
             {
               "depth": 2,
-              "value": "Import on demand",
-              "heading": "import-on-demand"
+              "value": "Update",
+              "heading": "update"
+            },
+            {
+              "depth": 2,
+              "value": "Use",
+              "heading": "use"
+            },
+            {
+              "depth": 2,
+              "value": "Feature List：",
+              "heading": "feature-list："
             }
           ],
           "title": "Getting Started",
@@ -188,15 +173,15 @@ export function getRoutes() {
         "title": "Getting Started"
       },
       {
-        "path": "/zh-CN/pages/getting-started",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__getting-started.zh-CN.md' */'../../../guide/pages/getting-started.zh-CN.md')}),
+        "path": "/zh-CN/pages/document",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__document.zh-CN.md' */'../../../guide/pages/document.zh-CN.md')}),
         "exact": true,
         "meta": {
-          "filePath": "guide/pages/getting-started.zh-CN.md",
-          "updatedTime": 1607064561139,
+          "filePath": "guide/pages/document.zh-CN.md",
+          "updatedTime": 1607072380305,
           "order": 1,
           "nav": {
-            "title": "指南",
+            "title": "文档",
             "order": 1,
             "path": "/zh-CN/pages"
           },
@@ -208,28 +193,23 @@ export function getRoutes() {
             },
             {
               "depth": 2,
-              "value": "第一个例子",
-              "heading": "第一个例子"
-            },
-            {
-              "depth": 3,
-              "value": "1. 创建一个 codesandbox",
-              "heading": "1-创建一个-codesandbox"
-            },
-            {
-              "depth": 3,
-              "value": "2. 使用 ahooks",
-              "heading": "2-使用-ahooks"
-            },
-            {
-              "depth": 3,
-              "value": "3. 探索更多 Hooks 用法",
-              "heading": "3-探索更多-hooks-用法"
+              "value": "安装",
+              "heading": "安装"
             },
             {
               "depth": 2,
-              "value": "按需加载",
-              "heading": "按需加载"
+              "value": "更新",
+              "heading": "更新"
+            },
+            {
+              "depth": 2,
+              "value": "使用",
+              "heading": "使用"
+            },
+            {
+              "depth": 2,
+              "value": "功能列表：",
+              "heading": "功能列表："
             }
           ],
           "title": "快速上手",
@@ -238,12 +218,254 @@ export function getRoutes() {
         "title": "快速上手"
       },
       {
+        "path": "/pages/fscreen",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__fscreen.en-US.md' */'../../../guide/pages/fscreen.en-US.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "guide/pages/fscreen.en-US.md",
+          "updatedTime": 1607073085943,
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "FullScreen",
+              "heading": "fullscreen"
+            },
+            {
+              "depth": 2,
+              "value": "Example",
+              "heading": "example"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "Methods",
+              "heading": "methods"
+            },
+            {
+              "depth": 4,
+              "value": "1. request(ele)",
+              "heading": "1-requestele"
+            },
+            {
+              "depth": 4,
+              "value": "2. exit(key, value)",
+              "heading": "2-exitkey-value"
+            },
+            {
+              "depth": 4,
+              "value": "3. clearAll()",
+              "heading": "3-clearall"
+            },
+            {
+              "depth": 4,
+              "value": "4. init(ele, cb)",
+              "heading": "4-initele-cb"
+            }
+          ],
+          "title": "FullScreen",
+          "locale": "en-US",
+          "nav": {
+            "path": "/pages",
+            "title": "Document"
+          }
+        },
+        "title": "FullScreen"
+      },
+      {
+        "path": "/zh-CN/pages/fscreen",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__fscreen.zh-CN.md' */'../../../guide/pages/fscreen.zh-CN.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "guide/pages/fscreen.zh-CN.md",
+          "updatedTime": 1607072970916,
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "FullScreen",
+              "heading": "fullscreen"
+            },
+            {
+              "depth": 2,
+              "value": "例子",
+              "heading": "例子"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "方法",
+              "heading": "方法"
+            },
+            {
+              "depth": 4,
+              "value": "1. request(ele)",
+              "heading": "1-requestele"
+            },
+            {
+              "depth": 4,
+              "value": "2. exit(key, value)",
+              "heading": "2-exitkey-value"
+            },
+            {
+              "depth": 4,
+              "value": "3. clearAll()",
+              "heading": "3-clearall"
+            },
+            {
+              "depth": 4,
+              "value": "4. init(ele, cb)",
+              "heading": "4-initele-cb"
+            }
+          ],
+          "title": "FullScreen",
+          "locale": "zh-CN",
+          "nav": {
+            "path": "/zh-CN/pages",
+            "title": "文档"
+          }
+        },
+        "title": "FullScreen"
+      },
+      {
+        "path": "/pages/store",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__store.en-US.md' */'../../../guide/pages/store.en-US.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "guide/pages/store.en-US.md",
+          "updatedTime": 1607072026844,
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Store",
+              "heading": "store"
+            },
+            {
+              "depth": 2,
+              "value": "例子",
+              "heading": "例子"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "方法",
+              "heading": "方法"
+            },
+            {
+              "depth": 4,
+              "value": "1. get(key)",
+              "heading": "1-getkey"
+            },
+            {
+              "depth": 4,
+              "value": "2. set(key, value)",
+              "heading": "2-setkey-value"
+            },
+            {
+              "depth": 4,
+              "value": "3. remove(key)",
+              "heading": "3-removekey"
+            },
+            {
+              "depth": 4,
+              "value": "4. clear()",
+              "heading": "4-clear"
+            },
+            {
+              "depth": 4,
+              "value": "5. clear()",
+              "heading": "5-clear"
+            }
+          ],
+          "title": "Store",
+          "locale": "en-US",
+          "nav": {
+            "path": "/pages",
+            "title": "Document"
+          }
+        },
+        "title": "Store"
+      },
+      {
+        "path": "/zh-CN/pages/store",
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__store.zh-CN.md' */'../../../guide/pages/store.zh-CN.md')}),
+        "exact": true,
+        "meta": {
+          "filePath": "guide/pages/store.zh-CN.md",
+          "updatedTime": 1607072031078,
+          "slugs": [
+            {
+              "depth": 1,
+              "value": "Store",
+              "heading": "store"
+            },
+            {
+              "depth": 2,
+              "value": "例子",
+              "heading": "例子"
+            },
+            {
+              "depth": 2,
+              "value": "API",
+              "heading": "api"
+            },
+            {
+              "depth": 3,
+              "value": "方法",
+              "heading": "方法"
+            },
+            {
+              "depth": 4,
+              "value": "1. get(key)",
+              "heading": "1-getkey"
+            },
+            {
+              "depth": 4,
+              "value": "2. set(key, value)",
+              "heading": "2-setkey-value"
+            },
+            {
+              "depth": 4,
+              "value": "3. remove(key)",
+              "heading": "3-removekey"
+            },
+            {
+              "depth": 4,
+              "value": "4. clear()",
+              "heading": "4-clear"
+            },
+            {
+              "depth": 4,
+              "value": "5. clear()",
+              "heading": "5-clear"
+            }
+          ],
+          "title": "Store",
+          "locale": "zh-CN",
+          "nav": {
+            "path": "/zh-CN/pages",
+            "title": "文档"
+          }
+        },
+        "title": "Store"
+      },
+      {
         "path": "/pages",
         "meta": {
           "order": 1
         },
         "exact": true,
-        "redirect": "/pages/getting-started"
+        "redirect": "/pages/document"
       },
       {
         "path": "/zh-CN/pages",
@@ -251,10 +473,10 @@ export function getRoutes() {
           "order": 1
         },
         "exact": true,
-        "redirect": "/zh-CN/pages/getting-started"
+        "redirect": "/zh-CN/pages/document"
       }
     ],
-    "title": "toolkit"
+    "title": "Toolkit"
   }
 ];
 
