@@ -2,6 +2,10 @@
 
 xy toolkit lib
 
+## guide
+
+(文档)[https://xylink-com.github.io/toolkit/]
+
 ## List
 
 - [x] broswer

@@ -1,8 +1,8 @@
 // @ts-nocheck
-import { createBrowserHistory } from '/Users/jonsam/Company/Projects/Github/xy-lodash/node_modules/@umijs/runtime';
+import { createBrowserHistory } from '/Users/luojinghui/work/xylink/tools/xy-toolkit/node_modules/@umijs/runtime';
 
 let options = {
-  "basename": "/"
+  "basename": "/toolkit"
 };
 if ((<any>window).routerBase) {
   options.basename = (<any>window).routerBase;

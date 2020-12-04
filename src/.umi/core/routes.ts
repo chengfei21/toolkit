@@ -1,6 +1,6 @@
 // @ts-nocheck
 import React from 'react';
-import { ApplyPluginsType, dynamic } from '/Users/jonsam/Company/Projects/Github/xy-lodash/node_modules/@umijs/runtime';
+import { ApplyPluginsType, dynamic } from '/Users/luojinghui/work/xylink/tools/xy-toolkit/node_modules/@umijs/runtime';
 import * as umiExports from './umiExports';
 import { plugin } from './plugin';
 
@@ -9,17 +9,17 @@ export function getRoutes() {
   {
     "path": "/",
     "component": (props) => require('react').createElement(require('../../../node_modules/@umijs/preset-dumi/lib/themes/default/layout.js').default, {
-      ...{"menus":{"en-US":{"*":[{"path":"/","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/pages":[{"path":"/pages/getting-started","title":"Getting Started","meta":{"order":1}}]},"zh-CN":{"*":[{"path":"/zh-CN","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/zh-CN/pages":[{"path":"/zh-CN/pages/getting-started","title":"快速上手","meta":{"order":1}}]}},"locales":[{"name":"en-US","label":"English"},{"name":"zh-CN","label":"中文"}],"navs":{"en-US":[{"title":"Guide","order":1,"path":"/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}],"zh-CN":[{"title":"指南","order":1,"path":"/zh-CN/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}]},"title":"xy-lodash","logo":"/logo.png","mode":"site"},
+      ...{"menus":{"en-US":{"*":[{"path":"/","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/pages":[{"path":"/pages/getting-started","title":"Getting Started","meta":{"order":1}}]},"zh-CN":{"*":[{"path":"/zh-CN","title":"xy-lodash - React utils Library of Xylink","meta":{}}],"/zh-CN/pages":[{"path":"/zh-CN/pages/getting-started","title":"快速上手","meta":{"order":1}}]}},"locales":[{"name":"en-US","label":"English"},{"name":"zh-CN","label":"中文"}],"navs":{"en-US":[{"title":"Guide","order":1,"path":"/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}],"zh-CN":[{"title":"指南","order":1,"path":"/zh-CN/pages"},{"title":"GitHub","path":"https://github.com/xylink-com/xy-lodash"}]},"title":"toolkit","logo":"/logo.png","mode":"site"},
       ...props,
     }),
     "routes": [
       {
         "path": "/",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__README.en-US.md' */'../../../docs/README.en-US.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__README.en-US.md' */'../../../guide/README.en-US.md')}),
         "exact": true,
         "meta": {
-          "filePath": "docs/README.en-US.md",
-          "updatedTime": 1606205676000,
+          "filePath": "guide/README.en-US.md",
+          "updatedTime": 1607064561136,
           "title": "xy-lodash - React utils Library of Xylink",
           "hero": {
             "title": "a react util library",
@@ -77,11 +77,11 @@ export function getRoutes() {
       },
       {
         "path": "/zh-CN",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__README.zh-CN.md' */'../../../docs/README.zh-CN.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__README.zh-CN.md' */'../../../guide/README.zh-CN.md')}),
         "exact": true,
         "meta": {
-          "filePath": "docs/README.zh-CN.md",
-          "updatedTime": 1606205676000,
+          "filePath": "guide/README.zh-CN.md",
+          "updatedTime": 1607064561137,
           "title": "xy-lodash - React utils Library of Xylink",
           "hero": {
             "title": "a react util library",
@@ -139,11 +139,11 @@ export function getRoutes() {
       },
       {
         "path": "/pages/getting-started",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__pages__getting-started.en-US.md' */'../../../docs/pages/getting-started.en-US.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__getting-started.en-US.md' */'../../../guide/pages/getting-started.en-US.md')}),
         "exact": true,
         "meta": {
-          "filePath": "docs/pages/getting-started.en-US.md",
-          "updatedTime": 1606205676000,
+          "filePath": "guide/pages/getting-started.en-US.md",
+          "updatedTime": 1607064561139,
           "order": 1,
           "nav": {
             "title": "Guide",
@@ -189,11 +189,11 @@ export function getRoutes() {
       },
       {
         "path": "/zh-CN/pages/getting-started",
-        "component": dynamic({ loader: () => import(/* webpackChunkName: 'docs__pages__getting-started.zh-CN.md' */'../../../docs/pages/getting-started.zh-CN.md')}),
+        "component": dynamic({ loader: () => import(/* webpackChunkName: 'guide__pages__getting-started.zh-CN.md' */'../../../guide/pages/getting-started.zh-CN.md')}),
         "exact": true,
         "meta": {
-          "filePath": "docs/pages/getting-started.zh-CN.md",
-          "updatedTime": 1606205676000,
+          "filePath": "guide/pages/getting-started.zh-CN.md",
+          "updatedTime": 1607064561139,
           "order": 1,
           "nav": {
             "title": "指南",
@@ -254,7 +254,7 @@ export function getRoutes() {
         "redirect": "/zh-CN/pages/getting-started"
       }
     ],
-    "title": "xy-lodash"
+    "title": "toolkit"
   }
 ];
 
