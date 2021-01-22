@@ -1,7 +1,7 @@
 /**
  * sdk计算签名
  *
- * @author jinghui-Luo
+ * @author phoebe
  *
  * Created at     : 2021-01-22 15:18:31
  * Last modified  : 2021-01-22 17:44:00
